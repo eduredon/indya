@@ -7,11 +7,12 @@
 
 <script setup lang="ts">
 import AppAvatar from './AppAvatar.vue'
+import AvatarImage from '@/assets/avatar.jpeg'
 
 const user = {
   name: 'Eduardo Redondo',
   email: 'eduredon@gmail.com',
-  image: 'https://imgur.com/BXMHaT7.jpg'
+  image: AvatarImage
 }
 </script>
 

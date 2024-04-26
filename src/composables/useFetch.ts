@@ -6,7 +6,7 @@ export function useFetch() {
   const load = async (fn: () => Promise<any>) => {
     try {
       loading.value = true
-      return fn()
+      return await fn()
     } catch (err: unknown) {
       error.value = err
     }

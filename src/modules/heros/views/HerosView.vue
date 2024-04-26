@@ -18,7 +18,7 @@ import { ref } from 'vue'
 import AppCard from '@/components/AppCard.vue'
 import { useRouter } from 'vue-router'
 import { useHeroStore, type Hero } from '@/stores/hero'
-import api from '@/api'
+import api from '@/services'
 
 const router = useRouter()
 const { load, error, loading } = useFetch()
